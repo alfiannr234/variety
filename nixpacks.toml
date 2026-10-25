@@ -1,0 +1,14 @@
+# Railway Nixpacks Configuration for Laravel 12 (Variety)
+[phases.setup]
+nixPkgs = ["php83", "php83Packages.composer", "nodejs_20"]
+
+[variables]
+NIXPACKS_PHP_ROOT_DIR = "/app/public"
+
+[phases.build]
+cmds = [
+    "composer install --no-dev --optimize-autoloader",
+    "php artisan storage:link || true",
+    "npm ci || npm install",
+    "npm run build"
+]
