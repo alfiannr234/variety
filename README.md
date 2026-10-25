@@ -1,9 +1,4 @@
 # Variety — Modern E-Commerce Platform
-
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80" alt="Variety Banner" width="100%" style="border-radius: 12px; max-height: 380px; object-fit: cover;" />
-</p>
-
 <p align="center">
   <a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 12"></a>
   <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-8.2%20%7C%208.3-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP Version"></a>
